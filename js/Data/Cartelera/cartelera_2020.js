@@ -60,7 +60,7 @@ const cartelera_data = {
                                         lecturas de obras de dramaturgos mexicanos.`,
                         "other": "Convocatoria para todo el municipio de Tlaltizapán",
                         "age_type": 0,
-                        "thumbnail": "img/cartelera/Julio/chabaud.png",
+                        "thumbnail": "img/cartelera/Noviembre/chabaud.png",
                     },
                     2 : {
                         "name": `BROTES: <br> Exploradores a la Selva`,
@@ -81,7 +81,7 @@ const cartelera_data = {
                                         realizando adivinanzas, juegos de asociación y canto.`,
                         "other": "Para bebés y niñas y niños de 4 a 6 años con acompañante",
                         "age_type": 1,
-                        "thumbnail": "img/cartelera/Julio/selva.png",
+                        "thumbnail": "img/cartelera/Noviembre/selva.png",
                     },
                     3 : {
                         "name": `BROTES: <br> Del Mar y Estrellas`,
@@ -101,7 +101,7 @@ const cartelera_data = {
                                         nombres de los animales del mar.`,
                         "other": "Para Preescolares y público en general",
                         "age_type": 1,
-                        "thumbnail": "img/cartelera/Julio/estrella.png",
+                        "thumbnail": "img/cartelera/Noviembre/estrella.png",
                     },
                     4 : {
                         "name": `BROTES: <br> De Monstruos, Bestias y Lobos`,
@@ -119,7 +119,7 @@ const cartelera_data = {
                                         descubrir ¿Quiénes son? y ¿Dónde viven?`,
                         "other": "Para Preescolares y público en general",
                         "age_type": 1,
-                        "thumbnail": "img/cartelera/Julio/monstruos.png",
+                        "thumbnail": "img/cartelera/Noviembre/monstruos.png",
                     },
                     5 : {
                         "name": `BROTES: <br> Del Mar y Estrellas`,
@@ -140,7 +140,7 @@ const cartelera_data = {
                                         nombres de los animales del mar.`,
                         "other": "Para bebés y niñas y niños de 4 a 6 años con acompañante",
                         "age_type": 1,
-                        "thumbnail": "img/cartelera/Julio/estrella.png",
+                        "thumbnail": "img/cartelera/Noviembre/estrella.png",
                     },
                     6 : {
                         "name": `BROTES: <br> Exploradores a la Selva`,
@@ -161,7 +161,7 @@ const cartelera_data = {
                                         asociación y canto.`,
                         "other": "",
                         "age_type": 1,
-                        "thumbnail": "img/cartelera/Julio/selva.png",
+                        "thumbnail": "img/cartelera/Noviembre/selva.png",
                     },
                     7 : {
                         "name": `BROTES <br> De Monstruos, Bestias y Lobos`,
@@ -179,7 +179,7 @@ const cartelera_data = {
                                         ¿Quiénes son? y ¿Dónde viven?`,
                         "other": "Para Preescolares y público en general",
                         "age_type": 1,
-                        "thumbnail": "img/cartelera/Julio/monstruos.png",
+                        "thumbnail": "img/cartelera/Noviembre/monstruos.png",
                     },
                 },
             },
