@@ -1,0 +1,123 @@
+.Sub_Player_Container {
+    width: 100vw;
+    background:#fff;
+}
+.Sub_Player_Container .secondBg{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-image: url("../../../img/index/bannerTri.png");
+    background-repeat: repeat;
+    background-size: 48%;
+}
+
+
+.Sub_Player_Container .header{
+    padding: 1vw 10vw;
+    background: rgb(0,203,255);
+    background: -moz-linear-gradient(137deg, rgba(0,203,255,1) 0%, rgba(31,0,108,1) 100%);
+    background: -webkit-linear-gradient(137deg, rgba(0,203,255,1) 0%, rgba(31,0,108,1) 100%);
+    background: linear-gradient(137deg, rgba(0,203,255,1) 0%, rgba(31,0,108,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00cbff",endColorstr="#1f006c",GradientType=1);
+    overflow: hidden;
+}
+.Sub_Player_Container .header .title{
+    font-family: 'Montserrat';
+    color: #ffb979;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 2vw;
+}
+.Sub_Player_Container .icon img{
+    display: block;
+    width: 8vw;
+    margin: auto;
+}
+
+
+.Sub_Player_Container .playerList{
+    padding:  3vw 0 2vw 0;
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+}
+.Sub_Player_Container .playerList .label{    
+    margin-top: 0.5vw;
+    color: #002699;
+    text-align: center;
+    font-weight: bold;
+}
+.Sub_Player_Container .playerList .listForm select{
+    font-family: 'Gotham-Rounded';
+    width: 100%;
+    color: #c72a94;
+    border-radius: 5px;
+    border: 1px solid #1f7a7a;
+    height: 2em;
+    padding: 0 2vw;
+}
+.Sub_Player_Container .playerList .listForm select:focus{
+    outline: none !important;
+    border: 1px solid #1f7a7a;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+.Sub_Player_Container .playerWrapper{
+    background: #fff;
+    border: solid 1px #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 3vw;
+    -webkit-box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    -moz-box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    box-shadow: 0px 4px 11px -1px rgba(133,133,133,1);
+    padding: 2vw;
+    height: 35vw;
+    overflow: hidden;
+}
+
+.Sub_Player_Container .Player_Select_PlayList{
+    max-height: 31vw;
+    overflow-y: auto;
+}
+
+.Sub_Player_Container .list_Element:hover{
+    background: #ebfafa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Sub_Player_Container .list_Element .type{
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 1em;
+    color: #595959;
+}
+.Sub_Player_Container .list_Element .info{
+    padding: 1em;
+    font-family: 'Gotham-Rounded';
+    font-size: 1.1em;
+    color: #33cccc;
+    line-height: 1em;
+}
+.Sub_Player_Container .list_Element .info span{
+    font-family: 'Montserrat';
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #8c8c8c;
+}
+
+
+.Sub_Player_Container .list_Element.active{
+    border-radius: 5px;
+    background: #29a3a3;
+}
+.Sub_Player_Container .list_Element.active .type{
+    color: #ffc266;
+}
+.Sub_Player_Container .list_Element.active .info{
+    color: #cccccc;
+}
+.Sub_Player_Container .list_Element.active .info span{
+    color: #ffc266;
+}

@@ -1,0 +1,49 @@
+.Modal_Audio{
+    border-left: solid 1px #cccccc;
+    padding: 2vw;
+} 
+
+
+.Modal_Audio .thumbnail img{
+    display: block;
+    margin: auto;
+    width: 65%;
+    border: solid 1.5em #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 1vw;
+}
+
+
+.Modal_Audio .testPlayerBar{
+    margin-bottom: 1vw;
+    text-align: center;
+}
+.Modal_Audio .testPlayerBar.green-audio-player{
+    background: #29a3a3;
+}
+.Modal_Audio .testPlayerBar.green-audio-player .play-pause-btn svg path,
+.Modal_Audio .testPlayerBar.green-audio-player .controls,
+.Modal_Audio .testPlayerBar.green-audio-player .volume svg path {
+    color: #ffb979;
+    fill: #ffb979;
+}
+.Modal_Audio .testPlayerBar.green-audio-player .controls .slider .gap-progress,
+.Modal_Audio .testPlayerBar.green-audio-player .controls .slider .gap-progress .pin,
+.Modal_Audio .testPlayerBar.green-audio-player .volume .volume__controls .slider .gap-progress,
+.Modal_Audio .testPlayerBar.green-audio-player .volume .volume__controls .slider .gap-progress .pin {
+    background-color: #ffb979;
+}
+
+
+.Modal_Audio .info{
+    font-family: 'Gotham-Rounded';
+    text-align: center;
+    font-size: 1.3em;
+    color: #29a3a3;
+}
+.Modal_Audio .info span{
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: #8c8c8c;
+    font-size: 1.1em;
+}

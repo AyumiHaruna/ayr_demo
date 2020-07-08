@@ -1,0 +1,11 @@
+body{
+    background-image: url('../../img/index/bgExagon.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+}
+.Index_Head_Container{
+    /* background-image: url('../../img/index/fondo_light.jpg'); */
+    background-size: cover;
+    padding: 2vw 3vw 0 2vw;
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <!-- fontAwesome -->
+        <script src="https://kit.fontawesome.com/035f9caf7c.js" crossorigin="anonymous"></script>
+        <!-- Carousel Siema -->
+        <script src="vendor/siemajs/siema.min.js"></script>
+        <!-- green audio player -->
+        <link rel="stylesheet" href="vendor/green_audio_player_js/css/green-audio-player.min.css">
+        <script src="vendor/green_audio_player_js/js/green-audio-player.min.js"></script>
+
+        <!-- style sheets -->
+        <!-- general styles -->
+        <link rel="stylesheet" href="css/Main.css" />
+        <link rel="stylesheet" href="css/Navbar.css" />
+        <!-- page styles -->
+        <link rel="stylesheet" href="css/Index/Index.css" />
+        <link rel="stylesheet" href="css/Index/Sky_Banner.css" />
+        <link rel="stylesheet" href="css/Index/Index_Botonera_Infancias.css">
+        <link rel="stylesheet" href="css/Index/Index_Botonera_Acciones.css">
+
+        <link rel="stylesheet" href="css/Suscribe.css" />
+        <link rel="stylesheet" href="css/FooterAyR.css">
+        <link rel="stylesheet" href="css/FooterGob.css" />
+
+        <!-- components styles -->
+        <link rel="stylesheet" href="css/Index/Components/Sub_Apps.css">
+        <link rel="stylesheet" href="css/Index/Components/Sub_Player.css">
+        <link rel="stylesheet" href="css/Index/Components/Sub_Cartelera.css">
+
+        <!-- modals -->
+        <link rel="stylesheet" href="css/Components/Modal_Audio.css">
+        <link rel="stylesheet" href="css/Components/Modal_Video.css">
+    </head>
+
+    <body>
+        <div class="container-fluid p-0">
+            <!-- header gobierno -->
+            <header>
+                <section class="header_gobierno bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="https://www.gob.mx">
+                            <img src="https://www.alasyraices.gob.mx/landing/gmx.png" width="90" height="30" class="d-inline-block align-top" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <section class="navbar-collapse justify-content-end collapse" id="navbarNav" style="">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link" href="https://www.gob.mx/tramites">Trámites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.gob.mx/gobierno">Gobierno</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="https://www.gob.mx/busqueda">🔍
+                            </a>
+                                </li>
+                            </ul>
+                        </section>
+                    </nav>
+                </section>
+            </header>
+
+            <div class="Index_Head_Container">           
+                    <!-- Banner de Pininos Sabatinos -->
+                    <div class="row Sky_Banner">
+                        <div class="col-12 Sky_Banner_Container">
+                            <a href="https://www.alasyraices.gob.mx/sabatinos.html">
+                                <img class="img-fluid" src="img/pininos/sabatinos_baner-LG.png" alt="banner de invitación a Mis Pininos Sabatinos: El último sábado de cada mes, asiste al Complejo Cultural Los Pinos. Conoce la programación haciendo clic aquí.">
+                            </a>
+                        </div>
+                    </div>      
+            </div>
+
+            <!-- header alas y raices -->
+            <nav class="navbar nav_ayr navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" id="navgar-toggler-button" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    
+                <div class="navbar-collapse collapse" id="navbarToggler" style="">
+                    <div class="navbar-nav mr-auto mt-2 mt-lg-0"> 
+                        <a href="index.html">
+                            <img src="img/ayr1.png" alt="logo de alas y raices" class="navBrand">
+                        </a>                
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="accesibilidad.html"> Accesibilidad <i class="fab fa-lg fa-accessible-icon"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienessomos.html"> ¿Quiénes Somos? <i class="fas fa-lg fa-users"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prensa.html">Prensa <i class="far fa-lg  fa-newspaper"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="e_books.html">E-Books <i class="fas fa-lg  fa-book-open"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="buscar.html">Buscar <i class="fas fa-lg  fa-search"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Suscripción <i class="far fa-lg  fa-envelope"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            
+            <!-- Botonera infancias -->
+            <div class="row Index_Botonera_Infancias">
+                <div class="col-12">
+                    <div class="title">Elige una opción para ver actividades de acuerdo a tu edad.</div>
+
+                    <div class="Index_Infancias_btn_container Inf_1">
+                        <img src="img/index/Blanco.png" alt="boton activo" class="rotate_rainbow">
+                        <div alt="boton niños de 1 a 5 años" class="animatable"></div>
+                        <div class="btn_Name">
+                            1 a 5 años
+                        </div>
+                        <div class="select-area" data-target="1"></div>
+                    </div>
+
+                    <div class="Index_Infancias_btn_container Inf_2">
+                        <img src="img/index/Blanco.png" alt="boton activo" class="rotate_rainbow">
+                        <div alt="boton niños de 6 a 12 años" class="animatable"></div>
+                        <div class="btn_Name">
+                            6 a 12 años
+                        </div>
+                        <div class="select-area" data-target="2"></div>
+                    </div>
+
+                    <div class="Index_Infancias_btn_container Inf_3">
+                        <img src="img/index/Blanco.png" alt="boton activo" class="rotate_rainbow">
+                        <div alt="boton niños Adolescentes" class="animatable"></div>
+                        <div class="btn_Name">
+                            Adolescentes
+                        </div>
+                        <div class="select-area" data-target="3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botonera de acciones -->
+            <div class="row Index_Botonera_Acciones">
+            </div>
+
+            <!-- Ventana de acción -->
+            <div class="row Index_Ventana_Accion"></div>
+
+            <!-- Banners de temporada -->
+            <div class="row">
+                <div class="col-12 alert alert-secondary">
+                    Banners de temporada
+                </div>
+            </div>
+
+            <!-- Seccion de Blog -->
+            <div class="row">
+                <div class="col-12 alert alert-success">
+                    Sección de Blog
+                </div>
+            </div>
+
+            <!-- Sección suscribete -->
+            <div class="row Suscribe">
+                <div class="col-sm-6 Suscribe_Text">
+                    No te pierdas de todas la novedades que Alas y Raices tiene para ti
+                </div>
+                <div class="col-sm-5">
+                    <div class="input-group">                        
+                        <input type="mail" class="form-control" id="Suscribe_Input" placeholder="Tu_correo@electrónico">
+                        <div class="input-group-prepend">
+                            <button type="button" id="Suscribe_button"> Suscríbete &nbsp; <i class="far fa-lg fa-envelope"></i> </button<>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer Alas y raices -->
+            <div class="row">
+                <div class="col-12 footer-ayr">
+                    <div class="row">
+                        <div class="col-sm-4 sub-div">
+                            <span>Estamos en:</span> <br><br>
+
+                            <a href="https://www.google.com.mx/maps/place/Secretar%C3%ADa+de+Cultura/@19.4308637,-99.1607373,21z/data=!4m5!3m4!1s0x0:0x581dc9dfb95e46b8!8m2!3d19.4309837!4d-99.1606557?shorturl=1">
+                                Av. Paseo de la Reforma 175, piso 5
+                                Col. Renacimiento, Alc. Cuauhtémoc
+                                C.P. 06500, Ciudad de México, México
+                            </a> <br><br>
+                        </div>
+                        <div class="col-sm-4 sub-div"> 
+                            <a href="https://www.alasyraices.gob.mx/"> <img src="img/ayr2.png" alt="Logo alas y raíces" /> </a><br>
+                                Derechos reservados © Secretaría de Cultura,
+                                Coordinación Nacional de Desarrollo Cultural Infantil,
+                                Programa nacional Alas y Raíces, México, 2019.
+                        </div>
+                        <div class="col-sm-4 sub-div">
+                            Síguenos en nuestras redes: <br> <br>
+                            <a href="https://www.facebook.com/alasyraicescultura/"> <i class="fab fa-2x fa-facebook-f"></i> </a> &nbsp;
+                            <a href="https://twitter.com/alasyraices"> <i class="fab fa-2x fa-twitter"></i> </a> &nbsp;
+                            <a href="https://www.instagram.com/alasyraicescultura/"> <i class="fab fa-2x fa-instagram"></i> </a>
+                            <br><br>
+                            Teléfono: <a href="4155-0200">4155-0200 ext 9320</a> <br>
+                            correo-e: <a href="alasyraices@cultura.gob.mx">alasyraices@cultura.gob.mx</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer Gobierno -->
+            <div class="row">
+                <div class="col-12 footer-gob">
+                    <img src="img/fondofooter.png" alt="pleca de separación" id="pleca-gob">
+                    <div class="row">
+                        <div class="col-sm-3 sub-div footer-gob1">
+                            <div>
+                                <a href="https://www.gob.mx/"> 
+                                    <img src="img/logoheader.svg" alt="logo gobierno mx" /> 
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.gob.mx/cultura/"> 
+                                    <img src="img/logo-cultura.svg" alt="logo secretaria de cultura" /> 
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3 sub-div footer-gob2">
+                            <span>Enlaces</span><br><br>
+                            <p>
+                                <a href="https://www.participa.gob.mx/">Participa</a> <br>
+                                <a href="https://www.gob.mx/publicaciones">Publicaciones oficiales</a> <br>
+                                <a href="http://www.ordenjuridico.gob.mx/">Marco Jurídico</a> <br>
+                                <a href="https://www.plataformadetransparencia.org.mx/web/guest/inicio">Plataforma Nacional de Transparencia</a>
+                            </p>
+                        </div>
+
+                        <div class="col-sm-3 sub-div footer-gob3">
+                            <span>¿Qué es gob.mx?</span><br><br>
+                            <p>
+                                Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a>
+                            </p>
+
+                            <p>
+                                <a href="https://datos.gob.mx/">Portal de datos abiertos</a><br>
+                                <a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a><br>
+                                <a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a><br>
+                                <a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a><br>
+                                <a href="https://www.gob.mx/terminos">Términos y condiciones</a><br>
+                                <a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a><br>
+                                <a href="https://www.gob.mx/sitemap">Mapa del sitio</a>
+                            </p>
+                        </div>
+
+                        <div class="col-sm-3 sub-div footer-gob4">
+                            <span> <a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></span><br><br>
+                            <p>
+                                Síguenos en: <br>
+                                <a href="https://www.facebook.com/gobmexico/"><i class="fab fa-lg fa-facebook-f"></i></a> &nbsp;&nbsp;
+                                <a href="https://twitter.com/GobiernoMX"><i class="fab fa-lg fa-twitter"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <!-- modal video -->
+        <div class="Modal_Video" onClick="close_modal_video()">
+            <div class="video_window">
+                <button class="Modal_Video_Close_Btn" onClick="close_modal_video()">
+                    <i class="far fa-times-circle"></i>
+                </button>
+                
+                <iframe src="" id="Modal_Video_Player" allow="autoplay" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <!-- <div>Modal de avisos</div> -->
+    </body>
+
+    <!-- page elements -->
+    <script src="js/common.js"></script>
+    <script src="js/Index/Index_Botonera_Infancias.js"></script>
+    <script src="js/Index/Index_Botonera_Acciones.js"></script>
+    <script src="js/Index/Index_Ventana_Accion.js"></script>
+
+    <!-- page components -->
+    <script src="js/Index/Components/Sub_Apps.js"></script>
+    <script src="js/Index/Components/Sub_Cartelera.js"></script>
+    <script src="js/Index/Components/Sub_Player.js"></script>
+
+    <!-- general components -->
+    <script src="js/Components/Modal_Video.js"></script>
+    <script src="js/Components/Modal_Audio.js"></script>
+
+    <!-- data objects -->
+    <script src="js/Data/index_botones_accion_data.js"></script>
+    <script src="js/Data/apps_data.js"></script>
+    <script src="js/Data/player_data.js"></script>
+    <script src="js/Data/Cartelera/cartelera_2020.js"></script>
+
+    <!-- index general functions -->
+    <script src="js/Index/Index_General.js"></script>
+</html>

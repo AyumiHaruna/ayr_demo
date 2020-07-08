@@ -1,0 +1,46 @@
+.Modal_Video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: 10;
+    background: rgba(0,0,0, 0.6);
+    display: none;
+}
+
+.Modal_Video .video_window{
+    position: relative; 
+    background: #fff;
+    height: 35%;
+    width: 80%;
+    margin: auto;
+    top: 5%;
+    border-radius: 15px;
+    z-index: 11;
+}
+
+.Modal_Video_Close_Btn {
+    position: absolute;
+    top: 0;
+    right: -3.5vw;
+    border: none;
+    font-size: 2.5vw;
+    text-align: center;
+    background: none;
+    color: #ff0000;
+    z-index: 12;
+}
+.Modal_Video_Close_Btn:hover{
+    color: #b30000;
+    opacity: 1;
+}
+.Modal_Video_Close_Btn:active{
+    color: #b30000;
+    opacity: 1;
+}
+
+#Modal_Video_Player{
+    width: 100%;
+    height: 100%
+}
